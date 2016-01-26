@@ -1,0 +1,4 @@
+<class>
+	<name>ConnectObject</name>
+	<superclass>NonVisualObject</superclass>
+</class>

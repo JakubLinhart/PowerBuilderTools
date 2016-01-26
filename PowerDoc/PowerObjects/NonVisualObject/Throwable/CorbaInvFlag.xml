@@ -1,0 +1,4 @@
+<class>
+	<name>CorbaInvFlag</name>
+	<superclass>CorbaSystemException</superclass>
+</class>

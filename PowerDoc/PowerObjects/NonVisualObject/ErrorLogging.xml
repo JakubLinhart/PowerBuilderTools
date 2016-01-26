@@ -1,0 +1,4 @@
+<class>
+	<name>ErrorLogging</name>
+	<superclass>Service</superclass>
+</class>

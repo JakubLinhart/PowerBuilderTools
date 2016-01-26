@@ -1,0 +1,4 @@
+<class>
+	<name>GrLegendType</name>
+	<superclass>EnumeratedType</superclass>
+</class>

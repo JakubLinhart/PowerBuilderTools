@@ -1,0 +1,4 @@
+<class>
+	<name>DragModes</name>
+	<superclass>EnumeratedType</superclass>
+</class>

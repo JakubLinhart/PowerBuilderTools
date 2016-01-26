@@ -1,0 +1,4 @@
+<class>
+	<name>HelpCommand</name>
+	<superclass>EnumeratedType</superclass>
+</class>

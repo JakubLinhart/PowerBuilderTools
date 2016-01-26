@@ -1,0 +1,4 @@
+<class>
+	<name>VTrackBar</name>
+	<superclass>DragObject</superclass>
+</class>

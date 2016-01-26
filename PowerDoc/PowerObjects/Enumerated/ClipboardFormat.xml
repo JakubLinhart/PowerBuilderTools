@@ -1,0 +1,4 @@
+<class>
+	<name>ClipboardFormat</name>
+	<superclass>EnumeratedType</superclass>
+</class>

@@ -1,0 +1,5 @@
+<class>
+	<name>MenuItemType</name>
+	<superclass>EnumeratedType</superclass>
+</class>
+

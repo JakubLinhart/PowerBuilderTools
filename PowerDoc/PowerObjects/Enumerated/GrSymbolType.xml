@@ -1,0 +1,4 @@
+<class>
+	<name>GrSymbolType</name>
+	<superclass>EnumeratedType</superclass>
+</class>

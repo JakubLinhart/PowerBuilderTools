@@ -1,0 +1,4 @@
+<class>
+	<name>ParmType</name>
+	<superclass>EnumeratedType</superclass>
+</class>

@@ -1,0 +1,4 @@
+<class>
+	<name>CorbaObject</name>
+	<superclass>NonVisualObject</superclass>
+</class>

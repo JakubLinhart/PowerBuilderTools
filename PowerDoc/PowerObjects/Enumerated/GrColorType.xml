@@ -1,0 +1,4 @@
+<class>
+	<name>GrColorType</name>
+	<superclass>EnumeratedType</superclass>
+</class>

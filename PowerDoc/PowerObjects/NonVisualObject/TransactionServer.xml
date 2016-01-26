@@ -1,0 +1,5 @@
+<class>
+	<name>TransactionServer</name>
+	<superclass>Service</superclass>
+</class>
+

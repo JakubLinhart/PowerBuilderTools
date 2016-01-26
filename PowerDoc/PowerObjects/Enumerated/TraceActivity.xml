@@ -1,0 +1,4 @@
+<class>
+	<name>TraceActivity</name>
+	<superclass>EnumeratedType</superclass>
+</class>

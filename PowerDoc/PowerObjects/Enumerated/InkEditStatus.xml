@@ -1,0 +1,4 @@
+<class>
+	<name>InkEditStatus</name>
+	<superclass>EnumeratedType</superclass>
+</class>

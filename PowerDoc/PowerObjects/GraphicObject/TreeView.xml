@@ -1,0 +1,4 @@
+<class>
+	<name>TreeView</name>
+	<superclass>DragObject</superclass>
+</class>

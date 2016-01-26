@@ -1,0 +1,4 @@
+<class>
+	<name>MailFileType</name>
+	<superclass>EnumeratedType</superclass>
+</class>

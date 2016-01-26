@@ -1,0 +1,4 @@
+<class>
+	<name>RemoteObject</name>
+	<superclass>NonVisualObject</superclass>
+</class>

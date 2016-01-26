@@ -1,0 +1,4 @@
+<class>
+	<name>TraceFile</name>
+	<superclass>PbToCPPObject</superclass>
+</class>

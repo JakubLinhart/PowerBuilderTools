@@ -1,0 +1,4 @@
+<class>
+	<name>Band</name>
+	<superclass>EnumeratedType</superclass>
+</class>

@@ -1,0 +1,4 @@
+<class>
+	<name>TraceTreeSQL</name>
+	<superclass>TraceTreeNode</superclass>
+</class>

@@ -1,0 +1,4 @@
+<class>
+	<name>TraceUser</name>
+	<superclass>TraceActivityNode</superclass>
+</class>

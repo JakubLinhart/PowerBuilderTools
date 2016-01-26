@@ -1,0 +1,4 @@
+<class>
+	<name>StaticText</name>
+	<superclass>DragObject</superclass>
+</class>

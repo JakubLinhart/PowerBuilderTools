@@ -1,0 +1,4 @@
+<class>
+	<name>DataWindow</name>
+	<superclass>DragObject</superclass>
+</class>

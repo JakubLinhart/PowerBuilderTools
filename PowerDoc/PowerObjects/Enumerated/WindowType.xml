@@ -1,0 +1,4 @@
+<class>
+	<name>WindowType</name>
+	<superclass>EnumeratedType</superclass>
+</class>

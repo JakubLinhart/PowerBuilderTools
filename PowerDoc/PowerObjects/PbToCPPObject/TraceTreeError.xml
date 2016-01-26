@@ -1,0 +1,4 @@
+<class>
+	<name>TraceTreeError</name>
+	<superclass>TraceTreeNode</superclass>
+</class>

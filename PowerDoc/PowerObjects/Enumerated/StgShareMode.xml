@@ -1,0 +1,4 @@
+<class>
+	<name>StgShareMode</name>
+	<superclass>EnumeratedType</superclass>
+</class>

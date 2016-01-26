@@ -1,0 +1,4 @@
+<class>
+	<name>MaskDataType</name>
+	<superclass>EnumeratedType</superclass>
+</class>

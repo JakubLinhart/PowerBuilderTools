@@ -1,0 +1,4 @@
+<class>
+	<name>String</name>
+	<superclass>PowerObject</superclass>
+</class>

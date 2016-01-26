@@ -1,0 +1,4 @@
+<class>
+	<name>VarAccess</name>
+	<superclass>EnumeratedType</superclass>
+</class>

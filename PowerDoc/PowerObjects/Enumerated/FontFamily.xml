@@ -1,0 +1,4 @@
+<class>
+	<name>FontFamily</name>
+	<superclass>EnumeratedType</superclass>
+</class>

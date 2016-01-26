@@ -1,0 +1,4 @@
+<class>
+	<name>RadioButton</name>
+	<superclass>DragObject</superclass>
+</class>

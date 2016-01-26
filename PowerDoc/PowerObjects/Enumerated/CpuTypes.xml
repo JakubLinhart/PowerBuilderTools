@@ -1,0 +1,4 @@
+<class>
+	<name>CpuTypes</name>
+	<superclass>EnumeratedType</superclass>
+</class>

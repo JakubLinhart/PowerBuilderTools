@@ -1,0 +1,4 @@
+<class>
+	<name>OsTypes</name>
+	<superclass>EnumeratedType</superclass>
+</class>

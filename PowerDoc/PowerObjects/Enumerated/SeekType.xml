@@ -1,0 +1,4 @@
+<class>
+	<name>SeekType</name>
+	<superclass>EnumeratedType</superclass>
+</class>

@@ -1,0 +1,4 @@
+<class>
+	<name>Button</name>
+	<superclass>EnumeratedType</superclass>
+</class>

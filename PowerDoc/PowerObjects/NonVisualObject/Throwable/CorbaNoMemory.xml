@@ -1,0 +1,4 @@
+<class>
+	<name>CorbaNoMemory</name>
+	<superclass>CorbaSystemException</superclass>
+</class>

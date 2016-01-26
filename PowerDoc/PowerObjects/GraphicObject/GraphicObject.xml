@@ -1,0 +1,4 @@
+<class>
+	<name>GraphicObject</name>
+	<superclass>PowerObject</superclass>
+</class>

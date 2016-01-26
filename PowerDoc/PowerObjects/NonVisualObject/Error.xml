@@ -1,0 +1,4 @@
+<class>
+	<name>Error</name>
+	<superclass>NonVisualObject</superclass>
+</class>

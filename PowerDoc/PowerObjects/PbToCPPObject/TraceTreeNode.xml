@@ -1,0 +1,4 @@
+<class>
+	<name>TraceTreeNode</name>
+	<superclass>PbToCPPObject</superclass>
+</class>

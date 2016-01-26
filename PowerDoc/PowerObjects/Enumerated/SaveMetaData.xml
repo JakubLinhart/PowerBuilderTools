@@ -1,0 +1,4 @@
+<class>
+	<name>SaveMetaData</name>
+	<superclass>EnumeratedType</superclass>
+</class>

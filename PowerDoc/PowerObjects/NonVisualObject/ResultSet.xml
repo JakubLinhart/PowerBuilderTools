@@ -1,0 +1,4 @@
+<class>
+	<name>ResultSet</name>
+	<superclass>NonVisualObject</superclass>
+</class>

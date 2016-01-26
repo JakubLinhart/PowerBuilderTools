@@ -1,0 +1,4 @@
+<class>
+	<name>VariableCardinalityType</name>
+	<superclass>EnumeratedType</superclass>
+</class>

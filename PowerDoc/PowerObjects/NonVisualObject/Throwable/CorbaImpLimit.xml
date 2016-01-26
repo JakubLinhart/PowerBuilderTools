@@ -1,0 +1,4 @@
+<class>
+	<name>CorbaImpLimit</name>
+	<superclass>CorbaSystemException</superclass>
+</class>

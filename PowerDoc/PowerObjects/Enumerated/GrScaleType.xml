@@ -1,0 +1,4 @@
+<class>
+	<name>GrScaleType</name>
+	<superclass>EnumeratedType</superclass>
+</class>

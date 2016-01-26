@@ -1,0 +1,4 @@
+<class>
+	<name>CorbaObjAdapter</name>
+	<superclass>CorbaSystemException</superclass>
+</class>

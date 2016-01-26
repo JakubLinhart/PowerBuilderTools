@@ -1,0 +1,4 @@
+<class>
+	<name>MultiLineEdit</name>
+	<superclass>DragObject</superclass>
+</class>

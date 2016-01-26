@@ -1,0 +1,4 @@
+<class>
+	<name>DWRuntimeError</name>
+	<superclass>RuntimeError</superclass>
+</class>

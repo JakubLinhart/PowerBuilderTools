@@ -1,0 +1,4 @@
+<class>
+	<name>OleStream</name>
+	<superclass>OmStream</superclass>
+</class>

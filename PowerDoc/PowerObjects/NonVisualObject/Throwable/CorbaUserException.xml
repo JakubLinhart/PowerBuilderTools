@@ -1,0 +1,4 @@
+<class>
+	<name>CorbaUserException</name>
+	<superclass>Exception</superclass>
+</class>

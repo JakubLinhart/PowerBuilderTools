@@ -1,0 +1,4 @@
+<class>
+	<name>AccessibleRole</name>
+	<superclass>EnumeratedType</superclass>
+</class>

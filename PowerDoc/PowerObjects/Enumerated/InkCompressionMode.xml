@@ -1,0 +1,4 @@
+<class>
+	<name>InkCompressionMode</name>
+	<superclass>EnumeratedType</superclass>
+</class>

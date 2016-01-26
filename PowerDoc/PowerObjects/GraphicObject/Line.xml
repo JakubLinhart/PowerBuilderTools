@@ -1,0 +1,4 @@
+<class>
+	<name>Line</name>
+	<superclass>DrawObject</superclass>
+</class>

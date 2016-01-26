@@ -1,0 +1,4 @@
+<class>
+	<name>ListView</name>
+	<superclass>DragObject</superclass>
+</class>

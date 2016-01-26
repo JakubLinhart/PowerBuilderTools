@@ -1,0 +1,4 @@
+<class>
+	<name>Tab</name>
+	<superclass>DragObject</superclass>
+</class>

@@ -1,0 +1,4 @@
+<class>
+	<name>CorbaCommFailure</name>
+	<superclass>CorbaSystemException</superclass>
+</class>

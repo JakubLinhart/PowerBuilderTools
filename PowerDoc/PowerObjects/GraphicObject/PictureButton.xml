@@ -1,0 +1,4 @@
+<class>
+	<name>PictureButton</name>
+	<superclass>CommandButton</superclass>
+</class>

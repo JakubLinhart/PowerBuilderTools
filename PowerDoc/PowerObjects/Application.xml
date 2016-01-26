@@ -1,0 +1,4 @@
+<class>
+	<name>Application</name>
+	<superclass>PowerObject</superclass>
+</class>

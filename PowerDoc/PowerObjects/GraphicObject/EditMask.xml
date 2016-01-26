@@ -1,0 +1,4 @@
+<class>
+	<name>EditMask</name>
+	<superclass>MultiLineEdit</superclass>
+</class>

@@ -1,0 +1,4 @@
+<class>
+	<name>CorbaMarshal</name>
+	<superclass>CorbaSystemException</superclass>
+</class>

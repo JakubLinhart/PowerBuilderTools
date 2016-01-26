@@ -1,0 +1,4 @@
+<class>
+	<name>SSLCallback</name>
+	<superclass>NonVisualObject</superclass>
+</class>

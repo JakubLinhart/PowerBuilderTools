@@ -1,0 +1,4 @@
+<class>
+	<name>OmActivateType</name>
+	<superclass>EnumeratedType</superclass>
+</class>

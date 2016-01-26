@@ -1,0 +1,4 @@
+<class>
+	<name>MailReturnCode</name>
+	<superclass>EnumeratedType</superclass>
+</class>

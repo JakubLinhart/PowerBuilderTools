@@ -1,0 +1,4 @@
+<class>
+	<name>ErrorReturn</name>
+	<superclass>EnumeratedType</superclass>
+</class>

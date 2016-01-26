@@ -1,0 +1,4 @@
+<class>
+	<name>InkPicture</name>
+	<superclass>DragObject</superclass>
+</class>

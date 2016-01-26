@@ -1,0 +1,4 @@
+<class>
+	<name>GrGraphType</name>
+	<superclass>EnumeratedType</superclass>
+</class>

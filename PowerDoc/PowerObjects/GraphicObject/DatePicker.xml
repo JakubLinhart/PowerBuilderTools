@@ -1,0 +1,4 @@
+<class>
+	<name>DatePicker</name>
+	<superclass>DragObject</superclass>
+</class>

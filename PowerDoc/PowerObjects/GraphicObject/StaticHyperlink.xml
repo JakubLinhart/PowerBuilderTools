@@ -1,0 +1,4 @@
+<class>
+	<name>StaticHyperlink</name>
+	<superclass>DragObject</superclass>
+</class>

@@ -1,0 +1,4 @@
+<class>
+	<name>CorbaTransient</name>
+	<superclass>CorbaSystemException</superclass>
+</class>

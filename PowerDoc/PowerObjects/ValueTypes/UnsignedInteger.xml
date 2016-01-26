@@ -1,0 +1,6 @@
+<class>
+	<name>UnsignedInteger</name>
+	<superclass>PowerObject</superclass>
+	<alias>unsignedint</alias>
+</class>
+

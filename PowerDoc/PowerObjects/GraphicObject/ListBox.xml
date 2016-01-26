@@ -1,0 +1,4 @@
+<class>
+	<name>ListBox</name>
+	<superclass>DragObject</superclass>
+</class>

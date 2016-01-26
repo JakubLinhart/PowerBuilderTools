@@ -1,0 +1,4 @@
+<class>
+	<name>ScriptKind</name>
+	<superclass>EnumeratedType</superclass>
+</class>

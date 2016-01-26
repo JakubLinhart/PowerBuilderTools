@@ -1,0 +1,4 @@
+<class>
+	<name>InkPersistenceFormat</name>
+	<superclass>EnumeratedType</superclass>
+</class>

@@ -1,0 +1,4 @@
+<class>
+	<name>GrScaleValue</name>
+	<superclass>EnumeratedType</superclass>
+</class>

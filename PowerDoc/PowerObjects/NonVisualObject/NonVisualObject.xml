@@ -1,0 +1,4 @@
+<class>
+	<name>NonVisualObject</name>
+	<superclass>PowerObject</superclass>
+</class>

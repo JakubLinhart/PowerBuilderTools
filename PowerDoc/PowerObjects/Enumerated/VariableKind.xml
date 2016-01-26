@@ -1,0 +1,4 @@
+<class>
+	<name>VariableKind</name>
+	<superclass>EnumeratedType</superclass>
+</class>

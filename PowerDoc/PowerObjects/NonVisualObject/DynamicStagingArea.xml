@@ -1,0 +1,4 @@
+<class>
+	<name>DynamicStagingArea</name>
+	<superclass>NonVisualObject</superclass>
+</class>

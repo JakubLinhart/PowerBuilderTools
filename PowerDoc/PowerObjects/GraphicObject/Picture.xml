@@ -1,0 +1,4 @@
+<class>
+	<name>Picture</name>
+	<superclass>DragObject</superclass>
+</class>

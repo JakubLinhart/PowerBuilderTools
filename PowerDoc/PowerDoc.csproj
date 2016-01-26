@@ -1,0 +1,1246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>7.10.3077</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{428E421D-7B8E-4DDD-97BC-F8203926679D}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName />
+    <AssemblyName>PowerDoc</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>PowerDoc</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbstractReferenceLinkResolver.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Argument.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ArgumentDoc.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CompilerBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CompilerException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ConfCompiler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DocAnalyzer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DocBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Hardwired.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HtmlExport.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IPBContainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IPowerScriptHolder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="KTKDocAnalyzer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="KTKReferenceLinkResolver.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Library.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LibraryDoc.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LibraryObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Namespace.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ObjectApplication.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ObjectDataWindow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ObjectFunction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ObjectMenu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ObjectProject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ObjectStructure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ObjectUserObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ObjectWindow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PblFile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PblFile070.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PblFile105.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PblFileException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PblReader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PBRoot.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PbtCompiler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PbwCompiler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PbwException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PFCDocAnalyzer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerDoc.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjectDoc.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Application.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\AccessibleRole.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\Alignment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\ArgCallingConvention.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\ArrangeOpen.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\ArrangeTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\Band.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\Border.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\BorderStyle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\Button.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\CharSet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\ClipboardFormat.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\ConnectPrivilege.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\ConvertType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\CpuTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\DateTimeFormat.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\Direction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\DisplaySizeMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\DragModes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\DWBuffer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\DWConflictResolution.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\DWItemStatus.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\Encoding.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\EnumeratedType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\ErrorReturn.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\ExceptionAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\FileAccess.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\FileLock.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\FileMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\FileType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\FillPattern.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\FontCharSet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\FontFamily.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\FontPitch.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\GrAxisDataType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\GrColorType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\GrDataType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\GrGraphType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\GrLegendType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\GrObjectType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\GrResetType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\GrRoundToType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\GrScaleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\GrScaleValue.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\GrSortType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\GrSymbolType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\GrTicType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\HelpCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\HTickMarks.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\Icon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\InkCollectionMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\InkCompressionMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\InkEditStatus.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\InkMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\InkPenTip.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\InkPersistenceFormat.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\InkPicEditMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\InkPicStatus.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\KeyCode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\LanguageID.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\LanguageSortID.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\LibDirType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\LibExportType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\LibImportType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\LineStyle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\ListViewView.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\Location.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\MailFileType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\MailLogonOption.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\MailReadOption.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\MailRecipientType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\MailReturnCode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\MaskDataType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\MenuItemType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\MenuMergeOption.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\MenuStyle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\MetaDataType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\MonCalDisplayState.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\MonCalRepeatType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\Object.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\OleFunctioncallType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\OmActivateType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\OmActivation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\OmContentsAllowed.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\OmDisplayType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\OmLinkUpdateOptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\OsTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\ParagraphSetting.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\ParmType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\PbTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\PdfMethod.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\Pointer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\ProfilerOutIneKind.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\RegistryValueType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\RowFocusInd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\SaveAsType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\SaveMetaData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\ScriptKind.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\SeekType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\SetPosType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\SizeMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\Spacing.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\SqlPreviewFunction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\SqlPreviewType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\StgReadMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\StgShareMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\TabPosition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\TextCase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\TextStyle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\TimerKind.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\ToolBarAlignment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\ToolBarStyle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\TraceActivity.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\TraceCategory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\TreeNavigation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\TrigEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\TypeCategory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\UserObjects.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\ValSchemeType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\VarAccess.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\VariableCardinalityType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\VariableKind.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\VTextAlign.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\VTickMarks.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\WebPagingMethod.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\WeekDay.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\WindowState.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\WindowType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Enumerated\WriteMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\function_object.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\Animation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\Checkbox.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\CommandButton.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\DataWindow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\DatePicker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\DragObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\DrawObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\DropDownListbox.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\DropDownPictureListbox.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\EditMask.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\Graph.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\GraphicObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\GroupBox.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\HProgressBar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\HScrollBar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\HTrackBar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\InkEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\InkPicture.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\Line.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\ListBox.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\ListView.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\MdiClient.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\Menu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\MenuCascade.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\MonthCalendar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\MultiLineEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\OleControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\OleCustomControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\OMControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\OMCustomControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\OMEmbeddedControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\Oval.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\Picture.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\PictureButton.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\PictureHyperlink.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\PictureListBox.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\RadioButton.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\Rectangle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\RichTextEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\RoundRectangle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\SingleLineEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\StaticHyperlink.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\StaticText.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\Tab.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\TreeView.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\UserObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\VProgressBar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\VScrollBar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\VTrackBar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\Window.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GraphicObject\WindowObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GrAxis.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\GrDispAttr.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\HardwiredObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\InitHardwired.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\AdoResultSet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Connection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\ConnectObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\ContextInformation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\ContextKeyword.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\CPlusPlus.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\DataStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\DWObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\DynamicDescriptionArea.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\DynamicStagingArea.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Error.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\ErrorLogging.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\ExtObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\INet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\InternetResult.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\JaguarOrb.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\MailSession.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Message.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\NonVisualObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\OleObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\OleStorage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\OleStream.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\OleTXNoObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\OMObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\OmStorage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\OmStream.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Orb.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Pipeline.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\RemoteObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\ResultSet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\ResultSets.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Service.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\SSLCallback.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\SSLServiceProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaBadAdContext.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaBadDataConversion.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaBadInvOrder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaBadOperation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaBadParam.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaBadTypeCode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaCommFailure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaCurrent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaFreeMem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaImpLimit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaInitialize.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaInternal.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaIntFrePos.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaInvalidTransaction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaInvFlag.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaInvIdent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaInvObjRef.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaMarshal.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaNoImplement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaNoMemory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaNoPermission.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaNoResources.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaNoResponse.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaObjAdapter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaObjectNotExists.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaPersistStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaSystemException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaTransactionRequired.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaTransactionRolledBack.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaTransient.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaUnion.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaUnknown.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\CorbaUserException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\DivideByZeroError.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\DWRuntimeError.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\Exception.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\NullObjectError.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\OleRuntimeError.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\PBXRuntimeError.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\RuntimeError.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Throwable\Throwable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Timing.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\Transaction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\NonVisualObject\TransactionServer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\PbToCPPObject\ArrayBounds.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\PbToCPPObject\ClassDefinition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\PbToCPPObject\ClassDefinitionObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\PbToCPPObject\EnumerationDefinition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\PbToCPPObject\EnumerationItemDefinition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\PbToCPPObject\PbToCPPObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\PbToCPPObject\ProfileCall.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\PbToCPPObject\ProfileClass.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\PbToCPPObject\ProfileLine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\PbToCPPObject\ProfileRoutine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\PbToCPPObject\Profiling.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\PbToCPPObject\ScriptDefinition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\PbToCPPObject\SimpleTypeDefinition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\PbToCPPObject\TraceFile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\PbToCPPObject\TraceTree.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\PbToCPPObject\TraceTreeError.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\PbToCPPObject\TraceTreeGarbageCollect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\PbToCPPObject\TraceTreeLine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\PbToCPPObject\TraceTreeNode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\PbToCPPObject\TraceTreeObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\PbToCPPObject\TraceTreeRoutine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\PbToCPPObject\TraceTreeSQL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\PbToCPPObject\TraceTreeUser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\PbToCPPObject\TypeDefinition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\PbToCPPObject\VariableCardinalityDefinition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\PbToCPPObject\VariableDefinition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Structure\ConnectionInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Structure\DataWindowChild.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Structure\Environment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Structure\ListViewItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Structure\MailFileDescription.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Structure\MailMessage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Structure\MailRecipient.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Structure\Structure.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\Structure\TreeViewItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\TraceActivityNode\TraceActivityNode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\TraceActivityNode\TraceBeginEnd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\TraceActivityNode\TraceError.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\TraceActivityNode\TraceGarbageCollect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\TraceActivityNode\TraceLine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\TraceActivityNode\TraceObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\TraceActivityNode\TraceRoutine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\TraceActivityNode\TraceSQL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\TraceActivityNode\TraceUser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\ValueTypes\Any.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\ValueTypes\Blob.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\ValueTypes\Boolean.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\ValueTypes\Date.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\ValueTypes\DateTime.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\ValueTypes\Decimal.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\ValueTypes\Double.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\ValueTypes\Integer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\ValueTypes\Long.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\ValueTypes\Real.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\ValueTypes\String.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\ValueTypes\Time.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\ValueTypes\UnsignedInteger.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\ValueTypes\UnsignedLong.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerObjects\ValueTypes\ValueType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PowerScriptCompiler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ReferenceLink.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ReferenceLinkResolver.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ScriptBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ScriptBaseDoc.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ScriptedLibraryObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ScriptEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ScriptEventDoc.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ScriptFunction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ScriptFunctionDoc.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ScriptFunctionsEnumeration.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Target.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VariableBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Workspace.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>

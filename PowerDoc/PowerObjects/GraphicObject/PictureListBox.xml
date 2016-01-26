@@ -1,0 +1,4 @@
+<class>
+	<name>PictureListBox</name>
+	<superclass>DragObject</superclass>
+</class>

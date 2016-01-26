@@ -1,0 +1,4 @@
+<class>
+	<name>WindowObject</name>
+	<superclass>GraphicObject</superclass>
+</class>

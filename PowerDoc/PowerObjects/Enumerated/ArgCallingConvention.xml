@@ -1,0 +1,4 @@
+<class>
+	<name>ArgCallingConvention</name>
+	<superclass>EnumeratedType</superclass>
+</class>

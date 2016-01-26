@@ -1,0 +1,4 @@
+<class>
+	<name>TraceGarbageCollect</name>
+	<superclass>TraceActivityNode</superclass>
+</class>

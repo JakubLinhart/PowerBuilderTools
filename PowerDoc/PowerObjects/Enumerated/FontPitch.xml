@@ -1,0 +1,4 @@
+<class>
+	<name>FontPitch</name>
+	<superclass>EnumeratedType</superclass>
+</class>

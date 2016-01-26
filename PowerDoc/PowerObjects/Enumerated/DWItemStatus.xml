@@ -1,0 +1,4 @@
+<class>
+	<name>DWItemStatus</name>
+	<superclass>EnumeratedType</superclass>
+</class>

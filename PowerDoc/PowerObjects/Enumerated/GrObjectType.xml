@@ -1,0 +1,4 @@
+<class>
+	<name>GrObjectType</name>
+	<superclass>EnumeratedType</superclass>
+</class>

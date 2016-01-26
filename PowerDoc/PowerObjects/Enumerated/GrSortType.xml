@@ -1,0 +1,4 @@
+<class>
+	<name>GrSortType</name>
+	<superclass>EnumeratedType</superclass>
+</class>

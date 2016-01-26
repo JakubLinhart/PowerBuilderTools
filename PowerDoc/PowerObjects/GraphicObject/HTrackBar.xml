@@ -1,0 +1,4 @@
+<class>
+	<name>HTrackBar</name>
+	<superclass>DragObject</superclass>
+</class>

@@ -1,0 +1,4 @@
+<class>
+	<name>PBXRuntimeError</name>
+	<superclass>RuntimeError</superclass>
+</class>

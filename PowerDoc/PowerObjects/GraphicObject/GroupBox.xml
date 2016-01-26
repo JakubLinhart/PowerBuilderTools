@@ -1,0 +1,4 @@
+<class>
+	<name>GroupBox</name>
+	<superclass>DragObject</superclass>
+</class>

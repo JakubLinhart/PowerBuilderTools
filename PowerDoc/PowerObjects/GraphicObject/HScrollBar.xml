@@ -1,0 +1,4 @@
+<class>
+	<name>HScrollBar</name>
+	<superclass>DragObject</superclass>
+</class>

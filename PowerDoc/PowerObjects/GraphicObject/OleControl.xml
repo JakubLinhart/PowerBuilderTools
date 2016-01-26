@@ -1,0 +1,4 @@
+<class>
+	<name>OleControl</name>
+	<superclass>OMEmbeddedControl</superclass>
+</class>

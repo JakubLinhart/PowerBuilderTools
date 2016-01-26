@@ -1,0 +1,4 @@
+<class>
+	<name>VScrollBar</name>
+	<superclass>DragObject</superclass>
+</class>

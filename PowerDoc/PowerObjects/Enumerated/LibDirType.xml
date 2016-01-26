@@ -1,0 +1,4 @@
+<class>
+	<name>LibDirType</name>
+	<superclass>EnumeratedType</superclass>
+</class>

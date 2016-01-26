@@ -1,0 +1,4 @@
+<class>
+	<name>SetPosType</name>
+	<superclass>EnumeratedType</superclass>
+</class>

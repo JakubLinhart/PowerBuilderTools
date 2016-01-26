@@ -1,0 +1,4 @@
+<class>
+	<name>TraceLine</name>
+	<superclass>TraceActivityNode</superclass>
+</class>

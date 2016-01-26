@@ -1,0 +1,4 @@
+<class>
+	<name>CorbaIntFrePos</name>
+	<superclass>CorbaSystemException</superclass>
+</class>

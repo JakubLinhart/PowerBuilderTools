@@ -1,0 +1,4 @@
+<class>
+	<name>CorbaPersistStore</name>
+	<superclass>CorbaSystemException</superclass>
+</class>

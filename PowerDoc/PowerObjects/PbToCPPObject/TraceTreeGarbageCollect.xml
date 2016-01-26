@@ -1,0 +1,4 @@
+<class>
+	<name>TraceTreeGarbageCollect</name>
+	<superclass>TraceTreeNode</superclass>
+</class>

@@ -1,0 +1,4 @@
+<class>
+	<name>TrigEvent</name>
+	<superclass>EnumeratedType</superclass>
+</class>

@@ -1,0 +1,4 @@
+<class>
+	<name>GrAxisDataType</name>
+	<superclass>EnumeratedType</superclass>
+</class>

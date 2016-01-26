@@ -1,0 +1,4 @@
+<class>
+	<name>TypeCategory</name>
+	<superclass>EnumeratedType</superclass>
+</class>

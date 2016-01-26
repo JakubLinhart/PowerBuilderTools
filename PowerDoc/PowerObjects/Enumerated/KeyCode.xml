@@ -1,0 +1,4 @@
+<class>
+	<name>KeyCode</name>
+	<superclass>EnumeratedType</superclass>
+</class>

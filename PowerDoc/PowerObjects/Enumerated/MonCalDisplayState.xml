@@ -1,0 +1,4 @@
+<class>
+	<name>MonCalDisplayState</name>
+	<superclass>EnumeratedType</superclass>
+</class>

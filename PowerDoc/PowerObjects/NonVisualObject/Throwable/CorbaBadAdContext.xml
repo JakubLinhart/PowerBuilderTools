@@ -1,0 +1,4 @@
+<class>
+	<name>CorbaBadAdContext</name>
+	<superclass>CorbaSystemException</superclass>
+</class>

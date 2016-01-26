@@ -1,0 +1,4 @@
+<class>
+	<name>CorbaInvIdent</name>
+	<superclass>CorbaSystemException</superclass>
+</class>

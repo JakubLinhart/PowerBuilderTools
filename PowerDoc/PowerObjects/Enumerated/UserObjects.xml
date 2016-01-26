@@ -1,0 +1,4 @@
+<class>
+	<name>UserObjects</name>
+	<superclass>EnumeratedType</superclass>
+</class>

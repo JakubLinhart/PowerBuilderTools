@@ -1,0 +1,4 @@
+<class>
+	<name>RuntimeError</name>
+	<superclass>Throwable</superclass>
+</class>

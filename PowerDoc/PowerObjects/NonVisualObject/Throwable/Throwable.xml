@@ -1,0 +1,4 @@
+<class>
+	<name>Throwable</name>
+	<superclass>NonVisualObject</superclass>
+</class>

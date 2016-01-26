@@ -1,0 +1,4 @@
+<class>
+	<name>Transaction</name>
+	<superclass>NonVisualObject</superclass>
+</class>

@@ -1,0 +1,4 @@
+<class>
+	<name>VariableCardinalityDefinition</name>
+	<superclass>ClassDefinitionObject</superclass>
+</class>

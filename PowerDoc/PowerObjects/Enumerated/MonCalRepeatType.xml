@@ -1,0 +1,4 @@
+<class>
+	<name>MonCalRepeatType</name>
+	<superclass>EnumeratedType</superclass>
+</class>

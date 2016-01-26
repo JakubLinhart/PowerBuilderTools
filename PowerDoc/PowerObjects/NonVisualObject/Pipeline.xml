@@ -1,0 +1,4 @@
+<class>
+	<name>Pipeline</name>
+	<superclass>NonVisualObject</superclass>
+</class>

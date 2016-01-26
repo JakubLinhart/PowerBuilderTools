@@ -1,0 +1,4 @@
+<class>
+	<name>CorbaTransactionRolledBack</name>
+	<superclass>CorbaSystemException</superclass>
+</class>

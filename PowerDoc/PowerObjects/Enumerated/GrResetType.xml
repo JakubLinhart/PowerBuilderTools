@@ -1,0 +1,4 @@
+<class>
+	<name>GrResetType</name>
+	<superclass>EnumeratedType</superclass>
+</class>

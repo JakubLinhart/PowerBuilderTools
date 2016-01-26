@@ -1,0 +1,4 @@
+<class>
+	<name>TraceSQL</name>
+	<superclass>TraceActivityNode</superclass>
+</class>

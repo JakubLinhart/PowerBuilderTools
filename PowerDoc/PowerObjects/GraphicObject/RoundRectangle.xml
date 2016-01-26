@@ -1,0 +1,4 @@
+<class>
+	<name>RoundRectangle</name>
+	<superclass>DrawObject</superclass>
+</class>

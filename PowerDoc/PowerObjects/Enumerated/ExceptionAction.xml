@@ -1,0 +1,4 @@
+<class>
+	<name>ExceptionAction</name>
+	<superclass>EnumeratedType</superclass>
+</class>

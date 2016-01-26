@@ -1,0 +1,4 @@
+<class>
+	<name>DivideByZeroError</name>
+	<superclass>RuntimeError</superclass>
+</class>

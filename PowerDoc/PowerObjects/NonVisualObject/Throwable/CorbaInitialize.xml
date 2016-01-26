@@ -1,0 +1,4 @@
+<class>
+	<name>CorbaInitialize</name>
+	<superclass>CorbaSystemException</superclass>
+</class>

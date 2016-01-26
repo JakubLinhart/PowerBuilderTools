@@ -1,0 +1,4 @@
+<class>
+	<name>ClassDefinitionObject</name>
+	<superclass>PbToCPPObject</superclass>
+</class>

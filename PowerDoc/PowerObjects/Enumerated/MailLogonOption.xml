@@ -1,0 +1,4 @@
+<class>
+	<name>MailLogonOption</name>
+	<superclass>EnumeratedType</superclass>
+</class>

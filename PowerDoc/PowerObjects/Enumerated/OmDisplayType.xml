@@ -1,0 +1,4 @@
+<class>
+	<name>OmDisplayType</name>
+	<superclass>EnumeratedType</superclass>
+</class>

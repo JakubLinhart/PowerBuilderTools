@@ -1,0 +1,4 @@
+<class>
+	<name>Animation</name>
+	<superclass>DragObject</superclass>
+</class>

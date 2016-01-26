@@ -1,0 +1,4 @@
+<class>
+	<name>Location</name>
+	<superclass>EnumeratedType</superclass>
+</class>

@@ -1,0 +1,4 @@
+<class>
+	<name>MailSession</name>
+	<superclass>NonVisualObject</superclass>
+</class>

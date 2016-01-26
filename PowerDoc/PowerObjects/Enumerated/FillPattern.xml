@@ -1,0 +1,4 @@
+<class>
+	<name>FillPattern</name>
+	<superclass>EnumeratedType</superclass>
+</class>

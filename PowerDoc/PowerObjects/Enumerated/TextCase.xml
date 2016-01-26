@@ -1,0 +1,4 @@
+<class>
+	<name>TextCase</name>
+	<superclass>EnumeratedType</superclass>
+</class>

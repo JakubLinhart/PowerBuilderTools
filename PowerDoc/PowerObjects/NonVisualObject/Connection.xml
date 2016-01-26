@@ -1,0 +1,4 @@
+<class>
+	<name>Connection</name>
+	<superclass>ConnectObject</superclass>
+</class>

@@ -1,0 +1,4 @@
+<class>
+	<name>Exception</name>
+	<superclass>Throwable</superclass>
+</class>

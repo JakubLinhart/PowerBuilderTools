@@ -1,0 +1,4 @@
+<class>
+	<name>SqlPreviewFunction</name>
+	<superclass>EnumeratedType</superclass>
+</class>

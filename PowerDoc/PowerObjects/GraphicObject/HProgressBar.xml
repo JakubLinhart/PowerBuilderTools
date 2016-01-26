@@ -1,0 +1,4 @@
+<class>
+	<name>HProgressBar</name>
+	<superclass>DragObject</superclass>
+</class>

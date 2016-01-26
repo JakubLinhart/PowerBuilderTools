@@ -1,0 +1,4 @@
+<class>
+	<name>FileType</name>
+	<superclass>EnumeratedType</superclass>
+</class>

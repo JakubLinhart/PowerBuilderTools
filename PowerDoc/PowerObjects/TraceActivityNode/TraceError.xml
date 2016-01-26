@@ -1,0 +1,4 @@
+<class>
+	<name>TraceError</name>
+	<superclass>TraceActivityNode</superclass>
+</class>

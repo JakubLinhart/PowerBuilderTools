@@ -1,0 +1,4 @@
+<class>
+	<name>Service</name>
+	<superclass>NonVisualObject</superclass>
+</class>

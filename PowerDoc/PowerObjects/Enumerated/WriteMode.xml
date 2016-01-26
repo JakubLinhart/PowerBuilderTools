@@ -1,0 +1,4 @@
+<class>
+	<name>WriteMode</name>
+	<superclass>EnumeratedType</superclass>
+</class>

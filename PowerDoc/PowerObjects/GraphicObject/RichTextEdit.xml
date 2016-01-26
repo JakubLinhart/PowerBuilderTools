@@ -1,0 +1,4 @@
+<class>
+	<name>RichTextEdit</name>
+	<superclass>DragObject</superclass>
+</class>

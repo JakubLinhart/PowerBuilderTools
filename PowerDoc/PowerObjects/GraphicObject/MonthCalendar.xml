@@ -1,0 +1,4 @@
+<class>
+	<name>MonthCalendar</name>
+	<superclass>DragObject</superclass>
+</class>

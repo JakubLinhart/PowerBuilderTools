@@ -1,0 +1,4 @@
+<class>
+	<name>CharSet</name>
+	<superclass>EnumeratedType</superclass>
+</class>

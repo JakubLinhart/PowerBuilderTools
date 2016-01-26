@@ -1,0 +1,4 @@
+<class>
+	<name>AdoResultSet</name>
+	<superclass>ResultSet</superclass>
+</class>

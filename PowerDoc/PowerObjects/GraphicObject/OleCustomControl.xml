@@ -1,0 +1,4 @@
+<class>
+	<name>OleCustomControl</name>
+	<superclass>OMCustomControl</superclass>
+</class>

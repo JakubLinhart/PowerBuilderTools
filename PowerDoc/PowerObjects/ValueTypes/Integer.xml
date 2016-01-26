@@ -1,0 +1,5 @@
+<class>
+	<name>Integer</name>
+	<superclass>PowerObject</superclass>
+	<alias>int</alias>
+</class>

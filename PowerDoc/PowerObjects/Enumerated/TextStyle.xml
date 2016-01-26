@@ -1,0 +1,4 @@
+<class>
+	<name>TextStyle</name>
+	<superclass>EnumeratedType</superclass>
+</class>

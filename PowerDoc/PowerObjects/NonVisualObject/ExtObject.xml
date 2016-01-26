@@ -1,0 +1,4 @@
+<class>
+	<name>ExtObject</name>
+	<superclass>NonVisualObject</superclass>
+</class>

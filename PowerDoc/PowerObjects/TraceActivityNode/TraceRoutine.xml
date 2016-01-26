@@ -1,0 +1,4 @@
+<class>
+	<name>TraceRoutine</name>
+	<superclass>TraceActivityNode</superclass>
+</class>

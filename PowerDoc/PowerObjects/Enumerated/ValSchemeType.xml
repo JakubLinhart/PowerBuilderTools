@@ -1,0 +1,4 @@
+<class>
+	<name>ValSchemeType</name>
+	<superclass>EnumeratedType</superclass>
+</class>

@@ -1,0 +1,4 @@
+<class>
+	<name>CorbaBadInvOrder</name>
+	<superclass>CorbaSystemException</superclass>
+</class>

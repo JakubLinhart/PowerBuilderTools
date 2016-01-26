@@ -1,0 +1,4 @@
+<class>
+	<name>BorderStyle</name>
+	<superclass>EnumeratedType</superclass>
+</class>

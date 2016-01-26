@@ -1,0 +1,4 @@
+<class>
+	<name>CorbaTransactionRequired</name>
+	<superclass>CorbaSystemException</superclass>
+</class>
